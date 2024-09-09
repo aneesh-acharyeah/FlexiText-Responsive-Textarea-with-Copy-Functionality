@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Textarea with Copy Button</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Responsive Textarea with Copy Functionality</h2>
+  <div class="textarea-container">
+    <textarea id="code-textarea" rows="6" placeholder="Type or paste your text here..."></textarea>
+    <button onclick="copyText()" class="copy-btn">
+      <i class="fas fa-copy"></i> Copy
+    </button>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+  function copyText() {
+    const textarea = document.getElementById('code-textarea');
+    textarea.select();
+    document.execCommand('copy');
+    alert('Text copied to clipboard!');
+  }
+</script>
+
+</body>
+</html>
