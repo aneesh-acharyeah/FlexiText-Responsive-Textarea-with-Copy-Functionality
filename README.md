@@ -17,3 +17,13 @@ To use this component in your project:
 
    ```bash
    git clone https://github.com/yourusername/FlexiText.git
+
+
+## Project Screenshot
+
+Here is a sample of the project:
+
+![Sample Screenshot](https://github.com/aneesh-acharyeah/FlexiText-Responsive-Textarea-with-Copy-Functionality/blob/main/Screenshot%202024-09-09%20130240.png?raw=true)
+
+
+
