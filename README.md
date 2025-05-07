@@ -16,7 +16,7 @@ To use this component in your project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/FlexiText.git
+   git clone https://github.com/aneesh-acharyeah/FlexiText-Responsive-Textarea-with-Copy-Functionality.git
 
 
 ## Project Screenshot
